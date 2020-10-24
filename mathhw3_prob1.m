@@ -30,6 +30,7 @@ quiver(x,y,u,v,'r'); figure(gcf)
 xlabel('y_1')
 ylabel('y_2')
 axis tight equal;
+title('Phase plot for Math227A hw#3, problem 1d')
 
 y10=4;
 hold on
