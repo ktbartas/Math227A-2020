@@ -1,7 +1,7 @@
 clear all; close all; clc;
 % 11/25/20
 % i stole most of this code from here: http://matlab.cheme.cmu.edu/2011/08/09/phase-portraits-of-a-system-of-odes/
-u=0;
+u=0.1;
 
 f = @(t,Y) [Y(2)+Y(1)*u; -Y(1)+u*Y(2)-Y(1)*Y(1)*Y(2)];
 
